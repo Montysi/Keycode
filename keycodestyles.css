@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#displayContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 100vh;
+    visibility: hidden;
+}
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    
+} */
+
+
+
+
+#displayCode {
+
+}
