@@ -2,14 +2,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    
 }
 
-#displayContainer {
+.container {
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    padding: 20px;
+    box-sizing: border-box;
     height: 100vh;
-    visibility: hidden;
 }
 
 #welcome {
@@ -21,15 +24,17 @@ body {
     box-sizing: border-box;
 }
 
-/* .container {
+
+#displayContainer {
     display: flex;
-    justify-content: center;
-    
-} */
+    justify-content: space-around;
+    align-items: stretch;
+    border: 2px solid transparent;
+    height: 10vh;
+    /* visibility: hidden; */
+}
 
 
-
-
-#displayCode {
-
+.infoDisplay {
+    border: 2px solid black;
 }
