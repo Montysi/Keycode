@@ -6,6 +6,10 @@
 body, html {
    background-color: rgb(1, 32, 100);
 }
+
+h1 {
+    color: rgb(65, 64, 64);
+}
   
 #displayContainer {
     display: flex;

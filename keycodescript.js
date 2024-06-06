@@ -1,7 +1,18 @@
 const welcomeBox = document.getElementById('welcome');
 
-document.addEventListener('keypress', () => {
-    welcomeBox.style.visibility = 'hidden'
+// document.addEventListener('keypress', () => {
+//     welcomeBox.style.visibility = 'hidden'
+// });
+
+document.addEventListener("keypress", () => {
+  welcomeBox.textContent = `${event.key}`;
+
+})
+
+document.addEventListener("keypress", (event) => {
+  const keyPress = event.key.toUpperCase();
+  welcomeBox.textContent = keyPress;
+  welcomeBox.style.fontSize = `${keyPress.length * 200}px`;
 });
 
 
